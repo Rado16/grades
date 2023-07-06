@@ -40,6 +40,7 @@ namespace grades
             }
             reader.Close();
 
+            //a
             StreamWriter Writer = new StreamWriter("output.txt");
             Writer.WriteLine("Двойки: "+br2);
             Writer.WriteLine("Тройки: " + br3);
